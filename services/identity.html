@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!--Google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<style>
+		.first-screen .row {
+			margin-bottom: 55px;
+		}
+		.first-screen .row h3 {
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 145%;
+			letter-spacing: 0.02em;
+			margin-top: 100px;
+			margin-bottom: 30px;
+		}
+		.first-screen .row p {
+			font-size: 15px;
+			line-height: 185%;
+			letter-spacing: 0.02em;
+			margin-bottom: 50px;
+		}
+		.first-screen .row button.blue {
+			width: 170px;
+			padding: 12px;
+		}
+		.first-screen .row button.white {
+			padding: 12px;
+			background-color: #fff;
+			color: #5551F7;
+			font-size: 13px;
+			line-height: 16px;
+			letter-spacing: 0.02em;
+			font-weight: 500;
+			border-radius: 0px;
+			border: 1px solid #5551F7;
+			width: 170px;
+			transition:background-color 0.25s linear, color 0.25s linear ;
+		}
+		.first-screen .row button.blue:active {
+			background-color: #fff;
+			color: #5551F7;
+		}
+		.first-screen .row button.white:hover, .first-screen .row button.white:active {
+			background-color: #5551F7;
+			color: #fff;
+		}
+		.first-screen .row h4 {
+			font-weight: 500;
+			font-size: 30px;
+			line-height: 145%;
+			letter-spacing: 0.02em;
+			margin-bottom: 40px;
+		}
+		.first-screen .row p.last {
+			font-size: 15px;
+			line-height: 185%;
+			letter-spacing: 0.02em;		
+		}
+	</style>
+
+	<title>Design</title>
+</head>
+<body>
+<!--First-screen-->
+	<section class="sec first-screen" id="item1">
+		<div class="container-fluid width-1100">
+			<nav class="nav hidden">
+				<a class="navbar-brand" href="../index.html">
+					<img src="../img/logo.png" alt="logo" style="max-width: 65px;">
+				</a>
+				<a class="nav-link" href="../portfolio.html">Portfolio</a>
+				<a class="nav-link" href="../services.html">Services</a>
+				<a class="nav-link" href="../about.html">About us</a>
+				<a class="nav-link me-auto" href="../contact.html">Contact</a>
+				<span>+38 (097) 757 51 51</span>
+				<button class="btn blue ms-3" onclick="document.location='../index.html#item6'">Discuss the project</button>
+			</nav>
+			<div class="d-flex d-md-none">
+				<a class="navbar-brand me-auto" href="index.html">
+					<img src="../img/logo.png" alt="logo" style="max-width: 49px;">
+				</a>
+				<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+					<i class="bi bi-list"></i>
+				</button>
+			</div>
+			<div class="offcanvas offcanvas-top d-md-none" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+				<div class="offcanvas-header">
+					<a class="navbar-brand me-auto" href="../index.html">
+						<img src="../img/logo-w.png" alt="logo" style="max-width: 49px;">
+					</a>
+					<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<nav class="nav flex-column">
+						<a class="nav-link" href="../portfolio.html">Portfolio</a>
+						<a class="nav-link" href="../services.html">Services</a>
+						<a class="nav-link" href="../about.html">About us</a>
+						<a class="nav-link" href="../contact.html">Contact</a>
+						<button class="btn blue mt-auto">Discuss the project</button>
+					</nav>
+				</div><!--End offcanvas-body-->
+			</div><!--End offcanvas-->
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Identity development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sem posuere, facilisis tortor vel, semper sapien.</p>
+					<button class="btn blue me-3" onclick="document.location='../brief/brief_logo.html'">Brief</button>
+					<button class="btn white">Price</button>
+				</div>
+				<div class="col-md-6 d-none d-md-block">
+					<img src="../img/HighFive.png">
+				</div>
+				<h4>What is a corporate identity and what does it include:</h4>
+				<p class="last">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sem posuere, facilisis tortor vel, semper sapien. Cras dictum lobortis ipsum, nec viverra turpis dictum id. Suspendisse quam leo, porta faucibus semper sit amet, lacinia nec orci. Nam quis dui tortor. Sed nec mi in augue tristique viverra.</p>
+			</div><!--End row-->
+		</div><!--End cont-fluid-->
+	</section><!--End 1st-screen-->
+<!--Style-->
+	<div class="style">
+		<div class="container-fluid width-1100">
+			<div class="row">
+				<h3>What is most often included in the corporate identity?</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sem posuere, facilisis tortor vel, semper sapien. Cras dictum lobortis ipsum, nec viverra turpis dictum id. Suspendisse quam leo, porta faucibus semper sit amet, lacinia nec orci.</p>
+				<div class="col-md-4 col-sm-6">
+					<ul>
+						<li>Logo</li>
+						<li>Color palette</li>
+						<li>Typography</li>
+						<li>Printed products</li>
+						<li>Photos</li>
+						<li>Illustrations</li>
+					</ul>
+				</div>
+				<div class="col-md-8 col-sm-6">
+					<ul>
+						<li>Icon</li>
+						<li>Creative</li>
+						<li>Interactive elements</li>
+						<li>Web-design</li>
+						<li>Brandbook</li>
+					</ul>
+				</div>
+			</div><!--End row-->
+		</div><!--End cont-fluid-->
+	</div><!--End style-->
+<!--Process-->
+	<div class="process">
+		<div class="container-fluid width-1100">
+			<h2>What the identity design process looks like:</h2>
+			<div class="content1 p-3">
+				<div class="width-200 proc1">
+					<p>01</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="width-200 proc2">
+					<p>02</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="width-200 proc3">
+					<p>03</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="width-200 proc4">
+					<p>04</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="width-200 proc5">
+					<p>05</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="me-3 width-200 proc6">
+					<p>06</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div><!--End content-->
+		</div><!--End cont-fluid-->
+	</div><!--End process-->
+<!--Content-->
+	<div class="content">
+		<div class="container-fluid width-1100">
+			<div class="row">
+				<h3>Example</h3>
+				<div class="col-md-12">
+					<img src="../img/imgholder.png">
+				</div>
+				<div class="col-md-7">
+					<img src="../img/imgholder.png">
+				</div>
+				<div class="col-md-5">
+					<img src="../img/imgholder.png">
+				</div>
+				<a href="" class="blue">All projects</a>
+			</div><!--End row example-->
+			<div class="row p-3">
+				<h3 class="text-center">Price</h3>
+				<div class="col-md-4">
+					<img src="../img/vector28.png">
+					<h5>Startup</h5>
+					<p>₴0 000</p>
+					<button>Order</button>
+					<hr>
+					<ul>
+						<li>2 concepts, 3 edits</li>
+						<li>3 days</li>
+						<li>Source files (* ai)</li>
+						<li>Logo in black, white and color version</li>
+						<li>Logo in CMYK color space</li>
+					</ul>
+				</div>
+				<div class="col-md-4 bord">
+					<img src="../img/vector28.png">
+					<h5>Company</h5>
+					<p>₴0 000</p>
+					<button>Order</button>
+					<hr>
+					<ul>
+						<li>2 concepts, 3 edits</li>
+						<li>2 days</li>
+						<li>Services of the "Normal" package</li>
+						<li>Logo presentation on mockups (Signs, Print media, Products)</li>
+						<li>The right to make changes after approval of the layout</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<img src="../img/vector28.png">
+					<h5>Corporation</h5>
+					<p>₴0 000</p>
+					<button>Order</button>
+					<hr>
+					<ul>
+						<li>5 concepts, 7 edits</li>
+						<li>3 days</li>
+						<li>Services of the "Standart" package</li>
+						<li>Selection of branded fonts</li>
+						<li>Selection of the color palette</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<img src="../img/vector28.png">
+					<h5>Restaurant</h5>
+					<p>₴0 000</p>
+					<button>Order</button>
+					<hr>
+					<ul>
+						<li>5 concepts, 7 edits</li>
+						<li>3 days</li>
+						<li>Services of the "Standart" package</li>
+						<li>Selection of branded fonts</li>
+						<li>Selection of the color palette</li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<img src="../img/vector28.png">
+					<h5>Individual</h5>
+					<h6>Unique project</h6>
+					<p>We're in business! Let's discuss the conditions suitable for you!</p>
+					<button>Order</button>
+				</div>
+			</div><!--End row price-->
+			<div class="row">
+				<h3>Benefits of working with us</h3>
+				<div class="col-md-3 col-sm-6">
+					<img src="../img/Object-271.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<img src="../img/object-131.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<img src="../img/object-21.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<img src="../img/object-52.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				</div>
+			</div>
+		</div><!--End cont-fluid-->
+	</div><!--End content-->
+<!--Sixth-screen-->
+	<section class="sec sixth-screen" id="item6">
+		<div class="container-fluid width-1100">
+			<div class="row">
+				<div class="col-md-6">
+					<h4>Discuss the project</h4>
+					<p>Lorem ipsum dolor sit amet,<br class="d-none d-md-block">consectetur adipiscing elit.</p>
+					<img src="../img/mail_form_2.png" class="d-none d-md-block">
+				</div>
+				<div class="col-md-6">
+					<form action="#" method="post">
+						<div class="row">
+							<div class="col-md-12 mb-4">
+								<label for="name" class="form-label">Your name*</label>
+								<input name="fname" type="text" class="form-control" id="name" placeholder="enter your name">
+							</div><!--End name-->
+							<div class="col-md-6 mb-4">
+								<label for="phone" class="form-label">Phone*</label>
+								<input name="phone" type="text" class="form-control" id="phone" placeholder="enter your phone number">
+							</div><!--End phone-->
+							<div class="col-md-6 mb-4">
+								<label for="email" class="form-label">E-mail*</label>
+								<input name="email" type="email" class="form-control" id="email" placeholder="enter your e-mail">
+							</div><!--End email-->
+							<div class="col-md-12 mb-5">
+								<label for="message" class="form-label">Your message*</label>
+								<input name="message" type="text" class="form-control" id="message" placeholder="enter message">
+							</div>
+						</div><!--End row-->
+						<div class="form-check d-block d-md-none">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+							<label class="form-check-label" for="flexCheckChecked">
+								Lorem ipsum dolor sit amet
+							</label>
+						</div>
+						<button type="button" class="btn blue" data-bs-toggle="modal" data-bs-target="#form">Submit</button>
+							<div class="modal fade" id="form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered p-3">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<div class="row">
+												<div class="col-md-6 p-5">
+													<span>The application has been successfully sent!</span>
+													<p>Our managers will contact you shortly.</p>
+													<button type="button" class="btn blue" data-bs-dismiss="modal">Close</button>
+												</div>
+												<div class="col-md-6 p-5 d-none d-md-block">
+													<img src="../img/Object-14.png">
+												</div>
+											</div>
+										</div>
+										<div class="modal-footer">
+										</div>
+									</div><!--End modal-content-->
+								</div><!--End modal-dialog-->
+							</div><!--End modal-->
+						<div class="form-check d-none d-md-inline-block">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+							<label class="form-check-label" for="flexCheckChecked">
+								Lorem ipsum dolor sit amet
+							</label>
+						</div>
+					</form>
+				</div>
+			</div><!--End row-->
+		</div><!--End cont-fluid-->
+	</section><!--End 6th-screen-->
+<!--Footer-->	
+	<div class="footer">
+		<div class="container-fluid width-1100">
+			<div class="row">
+				<div class="col-md-5">
+					<img class="logo d-block" src="../img/logo-w.png" alt="logo">
+					<div class="d-none d-md-block ">
+						<div id="img" class="me-2 d-inline">
+							<a href="#" target="_blank">
+								<img src="../img/inst.svg" data-hover-src="../img/inst-hover.svg">
+							</a>
+						</div>
+						<div id="img" class="me-2 d-inline">
+							<a href="#" target="_blank">
+								<img src="../img/group36.svg" data-hover-src="../img/group36-hover.svg">
+							</a>
+						</div>
+						<div id="img" class="d-inline">
+							<a href="#" target="_blank">
+								<img src="../img/group35.svg" data-hover-src="../img/group35-hover.svg">
+							</a>
+						</div>
+					</div><!--End d-none-->
+				</div><!--End col-md-5-->
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-4 col-12 mb-5">
+							<h3>Brief</h3>
+							<a href="../brief/brief_web-d.html" target="_blank">Web-design brief</a>
+							<a href="../brief/brief_iden.html" target="_blank">Identity brief</a>
+							<a href="../brief/brief_pres.html" target="_blank">Presentation brief</a>
+							<a href="../brief/brief_logo.html" target="_blank">Logo brief</a>
+							<a href="../brief/brief_illus.html" target="_blank">Illustration brief</a>
+						</div><!--End brief-->
+						<div class="col-md-4 col-6 mb-5">
+							<h3>About us</h3>
+							<a href="../portfolio.html">Portfolio</a>
+							<a href="../services.html">Service</a>
+							<a href="../about.html">About</a>
+							<a href="../contact.html">Contact</a>
+						</div><!--End about-->
+						<div class="col-md-4 col-6 mb-5">
+							<h3>Contact</h3>
+							<a href="mailto:example@mail.com">example@mail.com</a>
+							<p>+38 (098) 888 10 08</p>
+							<p>+38 (063) 333 10 33</p>
+							<a class="d-inline-block me-2" href="#"><i class="bi bi-telegram"></i></a>
+							<a class="d-inline-block" href="#"><i class="bi bi-whatsapp"></i></a>
+						</div><!--End contact-->
+					</div>
+				</div><!--End col-md-7-->
+			</div><!--End row-->
+			<div class="d-block d-md-none">
+				<div class="me-2 d-inline">
+					<a href="#">
+						<img src="../img/inst.svg" data-hover-src="../img/inst-hover.svg">
+					</a>
+				</div>
+				<div id="img" class="me-2 d-inline">
+					<a href="#">
+						<img src="../img/group36.svg" data-hover-src="../img/group36-hover.svg">
+					</a>
+				</div>
+				<div id="img" class="me-2 d-inline">
+					<a href="#">
+						<img src="../img/group35.svg" data-hover-src="../img/group35-hover.svg">
+					</a>
+				</div>
+			</div>
+		</div><!--End cont-fluid-->
+	</div><!--End footer-->
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	function createHoverImage() {
+  document.querySelectorAll('[data-hover-src]').forEach((img) => {
+    const src = img.getAttribute('src');
+    const srcH = img.getAttribute('data-hover-src');
+
+    img.addEventListener('mouseover', () => {img.src = srcH;})
+    img.addEventListener('mouseout', () => {img.src = src;})
+  });
+}
+
+createHoverImage();
+
+</script>
+
+</body>
+</html>
